@@ -1,0 +1,10 @@
+name: cljd_adder
+description: Local test
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  random_string: ^2.3.1

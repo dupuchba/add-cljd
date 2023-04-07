@@ -1,0 +1,6 @@
+(ns add.core
+  (:require ["package:random_string/random_string.dart" :as rs]))
+
+(defn hello [] (rs/randomString 10))
+
+(defn add [one two] (+ one two))
